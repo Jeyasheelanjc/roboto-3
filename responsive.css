@@ -1,0 +1,177 @@
+.checkbtn-22{
+    color: white;
+    font-size: 35px;
+    display: none;
+}
+#check{
+    display: none;
+}
+.navLinks{
+    display: none;
+}
+@media screen and (max-width:576px){
+    .navLinks{
+        display: none;
+        position: absolute;
+        top:100%;
+        flex-direction: column;
+        left: 0;
+        right: 0;
+        height: 50vh;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+        background-color: azure;
+        font-size: large;
+       
+    }
+    .navlinks{
+        display: none;
+    }
+    .navLinks a{
+        color:#038baf;
+    }
+    .checkbtn-22{
+        display: block;
+    }
+    #check:checked~.navLinks{
+        display: flex;
+    }
+    .section-1{
+        flex-direction:column;
+    }
+    .content-1 p{
+        text-align: center;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    .jumbotron .btn{
+        font-size: 15px;
+        padding: 15px 5px;
+    }
+    .home-bg{
+        padding: 100px 60px;
+        width: 100%;
+        background-position: center center;
+    }
+    .content{
+        text-align: left;
+        width: 100%;
+        padding: 50px 0 0px 0;
+    }
+    .logo-png img{
+        padding: 0px;
+        width: 100%;
+    }
+    .content-table .btn{
+        padding: 10px 10px 10px;
+        width: 100%;
+        font-size: 15px;
+        text-align: center;
+        display: block;
+
+    }
+    .section2 p{
+        padding: 0px;
+        text-align: center;
+        padding: 0 55px 0;
+    }
+    nav{
+        height: 13vh;
+    }
+    .home-bg-2 h3{
+        font-size: 25px;
+        padding: 20px 0 0px;
+    }
+    .home-bg-2 p{
+        font-size: 20px;
+    }
+    .section3 h2{
+        /* padding: 0; */
+        font-size: 30px;
+    }
+    .card-area-content{
+        padding: 40px;
+    }
+    .hero-2{
+        padding: 0;
+        justify-content: center;
+    }
+    .hero-2 p{
+        /* padding: 20px; */
+        font-size: 20px;
+        justify-content: center;
+    }
+    .hero-2 .logo-1 img{
+        padding: 40px;
+        width: 100%;
+    }
+.buttons .btn{
+    padding: 20px 5px;
+    font-size: 15px;
+}
+
+.buttons-1 .btns-1{
+    font-size: 15px;
+    padding: 10px 30px;
+    display: block;
+}
+.buttons-1 {
+    width: 100%;
+    font-size: 10px;
+}
+.hero-2 .logo-3 img{
+    padding: 80px;
+    width: 100%;
+}
+.hero-2 .logo-2 img{
+    padding: 15px;
+    width: 100%;
+}
+    .endbrs{
+        padding: 0;
+        justify-content: center;
+        font-size: 18px;
+        display: block;
+        line-height: 2;
+        text-align: center;
+        height: 12vh;
+    }
+    .endbar{
+        /* padding: 0 0 70px; */
+        justify-content: center;
+    }
+    .hero-2{
+        justify-content: center;
+        padding: 0 40px ;
+    }
+    .card-last .card-body h5{
+        font-size: 20px;
+
+    }
+    .card-last .card-body .bodylinks a {
+        font-size: 15px;
+    }
+    .card-last-2 .card-header h3{
+        font-size: 20px;
+    }
+    .card-last-2 .card-header .quicklink a{
+        font-size: 20px;
+    }
+    .card-last-3 .card-header h3{
+        font-size: 20px;
+    }
+    .card-last-3 .card-body h3{
+        font-size: 20px;
+        font-weight: 100;
+    }
+    .cardContainer{
+        text-align: left;
+    }
+    .cards{
+        padding: 100px 100px 0 0;
+        text-align: left;
+    }
+}
